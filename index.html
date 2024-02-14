@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>CassIntimates - Home</title>
+ <link rel="icon" href="imgs/Logo2.jpg">
+ <link rel="stylesheet" href="css/styles.css">
+ <link rel="stylesheet" href="css/card-gallery.css">
+ <link rel="stylesheet" href="css/compact-gallery.css">
+ <link rel="stylesheet" href="css/grid-gallery.css">
+ <link rel="stylesheet" href="css/horizontal-img-scroll.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link rel="stylesheet" href="css/horizontal.css">
+ <link rel="stylesheet" href="css/w3.css">
+ <link rel="stylesheet" href="css/horizontal.css">
+ </head>
+ <style>
+       @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@400&display=swap");
+       /* Override styles to retain black background and pink text color */
+       body {
+       background-color: black !important;
+       color: pink !important;
+       font-family: url("https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@400&display=swap") !important; 
+       }; </style>
+
+ <body>
+       <!-- Overlay to cover the background -->
+       <div class="overlay" data-overlay></div>
+       <div class="modal" data-modal>
+       <div class="modal-close-overlay" data-modal-overlay></div>
+       <div class="modal-content">
+        <button class="modal-close-btn" data-modal-close>
+        <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+       <!--News Letter-->
+        <div class="newsletter-img"><img src="imgs/four.jpg" alt="subscribe newsletter" width="400" height="400">
+        </div>
+        <div class="newsletter">
+        <form action="index.html">
+        <div class="newsletter-header">
+        <h3 class="newsletter-title">Welcome to Cass Intimates</h3>
+        <p class="newsletter-desc"><b>Subscribe</b> to our Newsletter for more </p></div>
+        <input type="email" name="email" class="email-field" placeholder="Enter Email" required>
+        <button type="submit" class="btn-newsletter">Submit</button></form>
+        </div></div></div>
+
+       <!--HEADER -->
+       <header>
+       <div class="header-top">
+       <div class="container">
+        <ul class="header-social-container">
+          <li><a href="https://www.facebook.com/cassintimates/" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li><a href="#" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+          <li><a href="https://gh.linkedin.com/in/christabely" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li></ul>
+
+        <!-- Header Section -->
+       <div class="header-alert-news">
+       <p><b>GET</b>FREE WORLDWIDE SHIPPING ON ALL ORDERS OVER 100$</p></div>
+       <div class="header-top-actions">
+        <select name="currency">
+        <option value="en-US">USD &dollar;</option>
+        <option value="GHC">GHC &dollar;</option>
+        <option value="eur">Dolar &euro;</option>
+        </select></div></div></div>
+
+       <div class="header-main">
+       <div class="container">
+       <a href="index.html" class="header-logo">
+       <img src="imgs/newlogo.jpg" alt="logo" width="120" height="36"></a>
+       <div class="header-search-container">
+       <input type="search" name="search" class="search-field" placeholder="Search for a product...">
+       <button class="search-btn">
+       <ion-icon name="search-outline"></ion-icon></button></div>
+       <div class="header-user-actions">
+       <button class="action-btn">
+       <ion-icon name="person-outline"></ion-icon>
+       </button>
+       <button class="action-btn">
+       <ion-icon name="heart-outline" class="heart-outline"></ion-icon>
+       <span class="count">0</span>
+       </button><button class="action-btn">
+       <ion-icon name="bag-handle-outline" class="bag-handle-outline" ></ion-icon>
+       <span class="count">0</span></button></div></div></div>
+
+       
+       
+       <nav class="desktop-navigation-menu">
+       <div class="container">
+       <ul class="desktop-menu-category-list">
+       <li class="menu-category"><a href="index.html" class="menu-title">Home</a></li>
+       <li class="menu-category"><a href="#categories" class="menu-title">Categories</a>
+       <div class="dropdown-panel"><ul class="dropdown-panel-list">
+       <li class="menu-title"><a href="#lingerie">Lingerie</a></li></ul>
+       <ul class="dropdown-panel-list"><li class="menu-title">
+       <a href="#grid-padding">Panties</a></li></ul>
+       <ul class="dropdown-panel-list"><li class="menu-title">
+       <a href="#gowns">Gowns & Stockings</a></li></ul>
+       <ul class="dropdown-panel-list"><li class="menu-title">
+       <a href="#waistbeads">Waist Beads</a></li></ul>
+       <ul class="dropdown-panel-list">
+       <li class="menu-title"><a href="#gallery-frame">Toys </a></li></ul>
+
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <a href="about.html" class="menu-title">About</a>
+          </li>
+
+          <li class="menu-category">
+            <a href="contact.html" class="menu-title">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="bag-handle-outline" class="bag-handle-outline"> <a href="cart.html"></a></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+      <button class="action-btn">
+        <ion-icon name="heart-outline" class="heart-outline"><a href="favorites.html"></a></ion-icon>
+
+        <span class="count">0</span>
+      </button>
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="grid-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <a href="index.html" class="menu-title">Home</a>
+        </li>
+
+        <li class="menu-category">
+          <a href="login.html" class="menu-title">
+            <strong>Login</strong>
+          </a>
+        </li>
+
+          
+      <div class="menu-bottom">
+        <ul class="menu-social-container">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+
+
+  <!--
+                - MAIN
+              -->
+
+  <main>
+
+    <!--
+                              - BANNER
+                            -->
+
+    <div class="banner"><div class="container"><div class="slider-container has-scrollbar">
+    <div class="slider-item">
+    <img src="imgs/mv1.jpg" alt="women's latest fashion sale" class="banner-img">
+    <div class="banner-content">
+    <p class="banner-subtitle"> PINK NIGHT</p>
+    <p class="banner-text"> &dollar; <b>50</b>.00</p>
+    <a href="productpage.html" class="banner-btn">Buy Now</a></div></div>
+            
+    <div class="slider-item">
+    <img src="imgs/mv4.jpg" alt="women's latest fashion sale" class="banner-img">
+    <div class="banner-content"> <p class="banner-subtitle"> ROGUE NIGHT</p>
+    <p class="banner-text"> &dollar; <b>50</b>.00 </p>
+   <a href="productpage.html" class="banner-btn">Buy Now</a></div></div>
+   </div> </div></div>
+   
+   <!--  CATEGORY -->
+   <div class="category">
+    <div class="container">
+    <div class="category-item-container has-scrollbar">
+    <div class="category-item">
+    <div class="category-img-box">
+    <img src="imgs/aa.jpg" alt="dress & frock" width="120"></div>
+    <div class="category-content-box">
+    <div class="category-content-flex">
+    <h3 class="category-item-title">Black prom</h3>
+    <p class="category-item-amount"> (13) </p></div>
+    <a href="#" class="category-btn">NEW</a></div></div>
+
+    <div class="category-item">
+    <div class="category-img-box">
+    <img src="imgs/ab.jpg" alt="glasses & lens" width="120"></div>
+    <div class="category-content-box">
+    <div class="category-content-flex">
+    <h3 class="category-item-title">Red Snatch</h3>
+     <p class="category-item-amount"> (8) </p></div>
+    <a href="#" class="category-btn">NEW</a> </div></div>
+        
+    <div class="category-item">
+    <div class="category-img-box">
+    <img src="imgs/ac.jpg" alt="glasses & lens" width="120"></div>
+    <div class="category-content-box">
+    <div class="category-content-flex">
+    <h3 class="category-item-title">Silky Allure</h3>
+    <p class="category-item-amount"> (6)</p></div>
+    <a href="#" class="category-btn">NEW</a> </div></div>
+
+    <div class="category-item">
+    <div class="category-img-box">
+    <img src="imgs/ae.jpg" alt="hat & caps" width="120"> </div>
+    <div class="category-content-box">
+    <div class="category-content-flex">
+    <h3 class="category-item-title">White Moon</h3>
+    <p class="category-item-amount"> (9)</p> </div>
+   <a href="#" class="category-btn">NEW</a></div> </div>
+   </div></div></div>
+
+
+
+    <div class="philly" id="categories">
+   <a name="fluid-gallery"></a>
+    <section class="gallery-block compact-gallery" id="lingerie">
+        <div class="container">
+            <div class="heading">
+                <h2>
+                    LINGERIE
+                </h2> <hr />
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/a.jpg">
+                        <img class="img-fluid image" src="imgs/a.jpg">
+                        <span class="description">
+                            <span class="description-heading">Golden Elegance</span>
+                            <span class="description-body">Perfect for all body shapes, available in black, blue and white</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/b.png">
+                        <img class="img-fluid image" src="imgs/b.png">
+                        <span class="description">
+                            <span class="description-heading">Divine Allure</span>
+                            <span class="description-body">Perfect for all body shapes, available in black</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/c.jpg">
+                        <img class="img-fluid image" src="imgs/c.jpg">
+                        <span class="description">
+                            <span class="description-heading">Midnight Desire</span>
+                            <span class="description-body">Perfect for all body shapes, available in white</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/e.jpg">
+                        <img class="img-fluid image" src="imgs/e.jpg">
+                        <span class="description">
+                            <span class="description-heading">Sultry Secrets</span>
+                            <span class="description-body">Perfect for all body shapes.</span>
+                        </span>
+                    </a>
+                  </div>
+                 <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/d.jpg">
+                        <img class="img-fluid image" src="imgs/d.jpg">
+                        <span class="description">
+                            <span class="description-heading">Sensual silk</span>
+                            <span class="description-body">Perfect for all body shapes</span>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/f.jpg">
+                        <img class="img-fluid image" src="imgs/f.jpg">
+                        <span class="description">
+                            <span class="description-heading">Midnight Finesse</span>
+                            <span class="description-body">Perfect for all body shapes, available in all colors</span>
+                        </span>
+                    </a>
+                </div>
+                 <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/others.jpg">
+                        <img class="img-fluid image" src="imgs/others.jpg">
+                        <span class="description">
+                            <span class="description-heading">Midnight Desire</span>
+                            <span class="description-body">Perfect for all body shapes, available in white</span>
+                        </span>
+                    </a>
+                </div>
+                 <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/maa.jpg">
+                        <img class="img-fluid image" src="imgs/maa.jpg">
+                        <span class="description">
+                            <span class="description-heading">Midnight Desire</span>
+                            <span class="description-body">Perfect for all body shapes, available in white</span>
+                        </span>
+                    </a>
+                </div> 
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/maa5.jpg">
+                        <img class="img-fluid image" src="imgs/maa5.jpg">
+                        <span class="description">
+                            <span class="description-heading">Midnight Desire</span>
+                            <span class="description-body">Perfect for all body shapes, available in white</span>
+                        </span>
+                    </a>
+                </div> 
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/h.jpg">
+                        <img class="img-fluid image" src="imgs/h.jpg">
+                        <span class="description">
+                            <span class="description-heading">Midnight Desire</span>
+                            <span class="description-body">Perfect for all body shapes, available in white</span>
+                        </span>
+                    </a>
+                </div> 
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/others2.jpg">
+                        <img class="img-fluid image" src="imgs/others2.jpg">
+                        <span class="description">
+                            <span class="description-heading">Midnight Desire</span>
+                            <span class="description-body">Perfect for all body shapes, available in white</span>
+                        </span>
+                    </a>
+                </div> 
+                <div class="col-md-6 col-lg-4 item zoom-on-hover">
+                    <a class="lightbox" href="imgs/maa8.jpg">
+                        <img class="img-fluid image" src="imgs/maa8.jpg">
+                        <span class="description">
+                            <span class="description-heading">Midnight Desire</span>
+                            <span class="description-body">Perfect for all body shapes, available in white</span>
+                        </span>
+                    </a>
+                </div>
+
+                
+                <!-- CARD GALLERY -->
+        <a name="card-gallery"></a>
+        <section class="gallery-block cards-gallery" id="waistbeads">
+            <div class="container">
+                <div class="heading">
+                    <h2>
+                      WAIST BEADS
+                    </h2> <hr />
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0 transform-on-hover">
+                            <a class="lightbox" href="imgs/cc.jpeg">
+                                <img src="imgs/cc.jpeg" alt="Card Image" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h6>
+                                    <a href="productpage.html">Buy Now</a>
+                                </h6>
+                                <p class="text-muted card-text">Beauty lies in the eyes of the beholder and on the waist of our customers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0 transform-on-hover">
+                            <a class="lightbox" href="imgs/cb.jpg">
+                                <img src="imgs/cb.jpg" alt="Card Image" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h6>
+                                    <a href="#">Buy Now</a>
+                                </h6>
+                                <p class="text-muted card-text">Trust none but God, your intincts and Cass Intimates.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0 transform-on-hover">
+                            <a class="lightbox" href="imgs/cd.jpeg">
+                                <img src="imgs/cd.jpeg" alt="Card Image" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h6>
+                                    <a href="#">Buy Now</a>
+                                </h6>
+                                <p class="text-muted card-text">The way to a man's heart is by wearing Cassy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0 transform-on-hover">
+                            <a class="lightbox" href="imgs/ce.jpg">
+                                <img src="imgs/ce.jpg" alt="Card Image" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h6>
+                                    <a href="#">Buy Now</a>
+                                </h6>
+                                <p class="text-muted card-text">Nothing looks better than a Cassy beads on a fine waist</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0 transform-on-hover">
+                            <a class="lightbox" href="imgs/cf (2).jpeg">
+                                <img src="imgs/cf (2).jpeg" alt="Card Image" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h6>
+                                    <a href="#">Buy Now</a>
+                                </h6>
+                                <p class="text-muted card-text"> To be in shape, eat a balanced diet, exercise regularly, wear Cassy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0 transform-on-hover">
+                            <a class="lightbox" href="imgs/classic.jpg">
+                                <img src="imgs/classic.jpg" alt="Card Image" class="card-img-top">
+                            </a>
+                            <div class="card-body">
+                                <h6>
+                                    <a href="#">Buy Now</a>
+                                </h6>
+                                <p class="text-muted card-text">Start your day with a sparkling glass of water, and an order</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                   
+    
+    
+       <!-- Modal for full size images on click-->
+       <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+         <span class="w3-button w3-display-topright" title="Close Modal Image"
+           ><i class="fas fa-times"></i> Close</span
+         >
+         <div
+           class="w3-modal-content w3-animate-opacity w3-center w3-transparent "
+         >
+           <img id="img01" class="w3-image" />
+           <p id="caption" class="w3-opacity w3-large"></p>
+         </div>
+       </div>
+     </div>
+
+     
+         
+    <a name="slider"></a>
+    <h2>
+        GOWNS & STOCKINGS
+    </h2><hr />
+    <!-- Bootstrap 4 carousel slider -->
+    <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" id="gowns">
+            <div class="carousel-item active">
+                <img class=" bs-slider d-block w-100" src="imgs/gs.jpg" alt="Lake and dock for fishing"     height="">
+            </div>
+            <div class="carousel-item">
+                <img class=" bs-slider d-block w-100 " src="imgs/gs1.jpg" alt="roaring lion">
+            </div>
+            <div class="carousel-item">
+                <img class=" bs-slider d-block w-100 " src="imgs/gs2.jpg" alt="astronaut in space">
+            </div>
+            <div class="carousel-item">
+                <img class=" bs-slider d-block w-100 " src="imgs/gs3.jpg" alt="Nature">
+            </div>
+            <div class="carousel-item">
+                <img class=" bs-slider d-block w-100 " src="imgs/gs4.jpg" alt="nature">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+<br>
+     <!-- PANTIES & BRAS-->
+            <a name="grid-gallery"></a>
+            <section id="grid-padding" class="gallery-block grid-gallery">
+                <div class="container">
+                    <div class="heading">
+                        <h2>
+                            PANTIES & BRAS
+                        </h2><hr />
+                    </div>
+                    <div  id="row-1" class="row">
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/da.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/da.jpg">
+                            </a>
+                        </div>
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/db.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/db.jpg">
+                            </a>
+                        </div>
+                        <div  id="grid-pics"class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/dc.jpeg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/dc.jpeg">
+                            </a>
+                        </div>
+                        <div  id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/de.jpeg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/de.jpeg">
+                            </a>
+                        </div>
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/df.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/df.jpg">
+                            </a>
+                        </div>
+                        <div  id="grid-pics"class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/dg.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/dg.jpg">
+                            </a>
+                        </div>
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/dh.jpeg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/dh.jpeg">
+                            </a>
+                        </div>
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/di.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/di.jpg">
+                            </a>
+                        </div>
+                        <div  id="grid-pics"class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/dj.jpeg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/dj.jpeg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <div class="ims-container"><img class="ims" src="imgs/ebony1.png" alt="ims 1"><div class="scratch-overlay"></div></div>
+<div class="ims-container"><img class="ims" src="imgs/ebony2.png" alt="ims 2"><div class="scratch-overlay"></div></div>
+<div class="ims-container"><img class="ims" src="imgs/ebony3.png" alt="ims 1"><div class="scratch-overlay"></div></div>
+<div class="ims-container"><img class="ims" src="imgs/ebony4.png" alt="ims 2"><div class="scratch-overlay"></div></div>
+<div class="ims-container"><img class="ims" src="imgs/ebony5.png" alt="ims 2"><div class="scratch-overlay"></div></div>
+<div class="ims-container"><img class="ims" src="imgs/ebony6.png" alt="ims 2"><div class="scratch-overlay"></div></div>
+
+  <!-- PANTIES & BRAS-->
+            <a name="grid-gallery"></a>
+            <section id="grid-padding" class="gallery-block grid-gallery">
+                <div class="container">
+                    <div class="heading">
+                        <h2>
+                            OTHERS
+                        </h2><hr />
+                    </div>
+                    <div  id="row-1" class="row">
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/ya2.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/ya2.jpg">
+                            </a>
+                        </div>
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/ya3.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/ya3.jpg">
+                            </a>
+                        </div>
+                        <div  id="grid-pics"class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/ya7.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/ya7.jpg">
+                            </a>
+                        </div>
+                        <div  id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/ya8.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/ya8.jpg">
+                            </a>
+                        </div>
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/ya9.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/ya9.jpg">
+                            </a>
+                        </div>
+                        <div  id="grid-pics"class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/ya12.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/ya12.jpg">
+                            </a>
+                        </div>
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/ya13.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/ya13.jpg">
+                            </a>
+                        </div>
+                        <div id="grid-pics" class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/ya15.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/ya15.jpg">
+                            </a>
+                        </div>
+                        <div  id="grid-pics"class="col-md-6 col-lg-4 item">
+                            <a class="lightbox" href="imgs/phill1.jpg">
+                                <img class="img-fluid image scale-on-hover" src="imgs/phill1.jpg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+<div id="gallery-container">
+    <div id="gallery-frame">
+        <img class="active" src="imgs/tb.jpg" alt="solarcan">
+        <img src="imgs/ta.jpg" alt="first scan">
+        <img src="imgs/tc.jpeg" alt="first developed photograph">
+        <img src="imgs/td.jpg" alt="second scan">
+        <img src="imgs/te.jpg" alt="second developed photograph">
+        <img src="imgs/tf.jpg" alt="second scan">
+        <img src="imgs/tg.jpg" alt="second developed photograph">
+    </div>
+</div>
+
+  
+
+  
+
+
+
+
+
+
+    <div>
+
+      <div class="container">
+
+        <div class="testimonials-box">
+          <!--
+                                                                        - TESTIMONIALS
+                                                                      -->
+
+          <div class="testimonial">
+
+            <h2 class="title">Testimonial</h2>
+
+            <div class="testimonial-card">
+
+              <img src="imgs/christy.jpg" alt="Christy" class="testimonial-banner" width="200" height="200">
+
+              <p class="testimonial-name">
+                Christy
+              </p>
+
+              <p class="testimonial-title">
+                CEO & Founder
+              </p>
+
+              <img src="imgs/life.png" alt="quotation" class="quotation-img" width="200">
+
+              <p class="testimonial-desc">
+                Unleash Your Femme Fatale with Cass Intimates
+              </p>
+
+            </div>
+
+          </div>
+
+
+
+          <!--
+                                                                        - CTA
+                                                                      -->
+
+          <div class="cta-container">
+
+            <img src="imgs/four.jpg" alt="summer collection" class="cta-banner">
+
+            <a href="cartegory.html" class="cta-content">
+
+              <p class="discount">
+                15% Discount
+              </p>
+
+              <h2 class="cta-title">Pink Barbie</h2>
+
+              <p class="cta-text">
+                 $55
+              </p>
+
+              <button class="cta-btn">Buy Now</button>
+
+            </a>
+
+          </div>
+
+
+
+          <!--
+                                                                        - SERVICE
+                                                                      -->
+
+          <div class="service">
+            <h2 class="title">Services</h2>
+            <div class="service-container">
+              <a href="cartegory.html" class="service-item">
+                <div class="service-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+                <div class="service-content">
+                  <h3 class="service-title">Delivery by ship</h3>
+                </div>
+              </a>
+
+              <a href="cartegory.html" class="service-item">
+                <div class="service-icon">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+                <div class="service-content">
+                  <h3 class="service-title">Delivery by plane</h3>
+                </div>
+              </a>
+
+              <a href="contact.html" class="service-item">
+                <div class="service-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+                <div class="service-content">
+                  <h3 class="service-title">Call Us</h3>
+                  <p class="service-desc">
+                    Hours: 8AM - 11PM
+                  </p>
+                </div>
+              </a>
+
+              <a href="contact.html" class="service-item">
+                <div class="service-icon">
+                  <ion-icon name="arrow-undo-outline"></ion-icon>
+                </div>
+                <div class="service-content">
+                  <h3 class="service-title">Share</h3>
+                </div>
+              </a>
+
+              <a href="cartegory.html" class="service-item">
+                <div class="service-icon">
+                  <ion-icon name="ticket-outline"></ion-icon>
+                </div>
+                <div class="service-content">
+                  <h3 class="service-title">Gift Cards</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ BLOG
+
+                            <div class="blog">
+                              <div class="container">
+                                <div class="blog-container has-scrollbar">
+                                  <div class="blog-card">
+                                    <div class="blog-content">
+                                      <a href="#" class="blog-category">Fashion</a>
+                                      <a href="#">
+                                        <h3 class="blog-title">Clothes Retail KPIs 2021 Guide for Clothes Executives.</h3>
+                                      </a>
+                                      <p class="blog-meta">
+                                        By <cite>Mrs Abby</cite> / <time datetime="2023-04-06">Apr 06, 2023</time>
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div class="blog-card">                               
+                                    <div class="blog-content">
+                                      <a href="#" class="blog-category">Clothes</a>
+                                      <h3>
+                                        <a href="#" class="blog-title">Curbside fashion Trends: How to Win the Pickup Battle.</a>
+                                      </h3>
+                                      <p class="blog-meta">
+                                        By <cite>Mr Collins</cite> / <time datetime="2024-01-18">Jan 18, 2024</time>
+                                      </p>
+                                    </div>
+                                  </div>
+
+                                  <div class="blog-card">                        
+                                    <div class="blog-content">
+                                      <a href="#" class="blog-category">Shoes</a>
+                                      <h3>
+                                        <a href="#" class="blog-title">EBT vendors: Claim Your Share of SNAP Online Revenue.</a>
+                                      </h3>
+                                      <p class="blog-meta">
+                                        By <cite>Miss Lincy</cite> / <time datetime="2022-02-10">Feb 10, 2022</time>
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+  </main>
+
+
+
+
+
+  <!--
+                - FOOTER
+              -->
+  <footer>
+
+    <div class="footer-category">
+
+      <div class="container">
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Popular Categories/h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Lingerie</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Waist Beads</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Panties and Bras</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Services</h2>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Payments</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Shipping</a>
+          </li>
+
+          <li class="footer-nav-item">
+            <a href="#" class="footer-nav-link">Terms and conditions</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contact</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <addres class="footer-nav-link">
+              Doodowa, Eastern region, Ghana
+            </address>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">(233) 556 738 108</a>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:example@gmail.com" class="footer-nav-link">christabelaidoo101@gmail.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Socials</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="imgs/payment.png" alt="método de pagamento" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <strong>Phillipa Aidoo</strong> All rights reserved
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!--
+                - custom js link
+              -->
+  <script src="index.js"></script>
+
+  <!--
+                - ionicon link
+              -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+   <script>
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+      }
+
+      // Change style of navbar on scroll
+      window.onscroll = function() {
+        myFunction();
+      };
+      function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          navbar.className =
+            "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        } else {
+          navbar.className = navbar.className.replace(
+            " w3-card w3-animate-top w3-white",
+            ""
+          );
+        }
+      }
+
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+
+  <!-- BS4 JQUERY AND POPPER.js CDN's -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+
+    <!-- local script file  -->
+
+<script>
+        baguetteBox.run('.compact-gallery', { animation: 'slideIn' });
+
+    </script>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import {
+      initializeApp
+    } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+    import {
+      getFirestore,
+      doc,
+      setDoc
+    } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCUsbrsHQMtN429BYCemU3fonSDbyyAWog",
+      authDomain: "shop-jvj.firebaseapp.com",
+      databaseURL: "https://shop-jvj-default-rtdb.firebaseio.com",
+      projectId: "shop-jvj",
+      storageBucket: "shop-jvj.appspot.com",
+      messagingSenderId: "1096517599292",
+      appId: "1:1096517599292:web:255e73383487be3fbcc339",
+      measurementId: "G-3GWT92064D"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    // Initialize Cloud Firestore and get a reference to the service
+    const db = getFirestore(app);
+
+    /*/ Add a new document in collection "cities"
+    await setDoc(doc(db, "bags", "LA"), {
+      name: "Los Angeles",
+      state: "CA",
+      country: "USA"
+    });
+    */
+    const btnsActionAddBag = document.querySelectorAll('.bag-add-outline');
+
+    btnsActionAddBag.forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        console.log(e.currentTarget.parentElement.parentElement.parentElement.parentElement);
+        
+        document.querySelectorAll('.bag-handle-outline + .count').forEach(( bagHandle ) => {
+            if (bagHandle.textContent == "") {
+              bagHandle.textContent = 1;
+            } else {
+              bagHandle.textContent = parseInt(bagHandle.textContent) + 1;
+            }
+            console.log(bagHandle);
+        })
+      });
+    });
+    
+    
+    const btnsActionAddHeart = document.querySelectorAll('.btn-action .heart-outline');
+
+    btnsActionAddHeart.forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+        console.log(e.currentTarget.parentElement.parentElement.parentElement);
+        
+        document.querySelectorAll('.action-btn > .heart-outline + .count').forEach(( btn ) => {
+            if (btn.textContent == "") {
+              btn.textContent = 1;
+            } else {
+              btn.textContent = parseInt(bagHandle.textContent) + 1;
+            }
+            console.log(bagHandle);
+        })
+      });
+    });
+  </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const galleryFrame = document.getElementById('gallery-frame');
+        const images = galleryFrame.querySelectorAll('img');
+
+        images.forEach(img => {
+            img.addEventListener('click', function () {
+                images.forEach(img => {
+                    img.classList.remove('active');
+                    img.style.transform = 'rotate(45deg) scale(1)';
+                });
+                this.classList.add('active');
+                this.style.transform = 'rotate(0) scale(1.2)';
+            });
+        });
+    });
+</script>
+<script>
+  const imss = document.querySelectorAll('.ims');
+  const scratchOverlay = document.querySelector('.scratch-overlay');
+
+  imss.forEach(ims => {
+    ims.addEventListener('mouseenter', () => {
+      ims.style.filter = 'blur(0)';
+    });
+
+    ims.addEventListener('mouseleave', () => {
+      ims.style.filter = 'blur(20px)';
+    });
+  });
+</script>
+
+</body>
+</html>
